@@ -22,4 +22,21 @@ triangle_area = width * height / 2
 print("사각형의 넓이 :", rectangle_area)
 print("삼각형의 넓이 :", triangle_area)
 
+# 4
+# 국어 93점, 수학 88점, 영어 94점
+# 평균 91.67 점 입니다.
+korean = 93
+math = 88
+english = 94
+average = (korean + math + english) / 3
+print("국어 %d점, 수학 %d점, 영어 %d점" % (korean, math, english))
+print("평균 %.2f점 입니다." % average)
+
+# 5
+# 화씨 온도 = 9 / 5 * 섭씨온도 + 32
+# 섭씨 30도는 화씨 86도 입니다.
+c = 30
+f = 9 / 5 * c + 32
+print("섭씨 %d도는 화씨 %g도 입니다." % (c, f))
+
 
