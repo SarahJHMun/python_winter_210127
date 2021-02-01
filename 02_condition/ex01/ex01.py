@@ -16,3 +16,25 @@ if weight == 68:
 # 만약에 몸무게가 75키로가 아니면
 if weight != 75:
     print("당신의 몸무게는 75kg이 아닙니다.")
+
+# 두 개의 수 입력받고 비교하기
+n1, n2 = input("두 개의 수를 입력하세요:").split()
+n1 = int(n1)
+n2 = int(n2)
+
+# n1 > n2
+if n1 > n2:
+    print("%d가 %d보다 크다." % (n1, n2))
+
+# n1 < n2
+if n1 < n2:
+    print("%d가 %d보다 작다." % (n1, n2))
+
+# n1 == n2
+if n1 == n2:
+    print("%d와 %d가 같다." % (n1, n2))
+
+# n1 != n2
+condition = n1 != n2
+if condition:
+    print("%d와 %d는 같지 않다." % (n1, n2))
